@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-06T10:37:27 BRT" name="Default suite" finished-at="2021-06-06T10:37:27 BRT" duration-ms="35">
+    <groups>
+    </groups>
+    <test started-at="2021-06-06T10:37:27 BRT" name="Default test" finished-at="2021-06-06T10:37:27 BRT" duration-ms="35">
+      <class name="com.selenium.tests.Tests">
+        <test-method signature="elementsCheck()[pri:0, instance:com.selenium.tests.Tests@591e58fa]" started-at="2021-06-06T10:37:27 BRT" name="elementsCheck" finished-at="2021-06-06T10:37:27 BRT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elementsCheck -->
+        <test-method signature="linkTest()[pri:0, instance:com.selenium.tests.Tests@591e58fa]" started-at="2021-06-06T10:37:27 BRT" name="linkTest" finished-at="2021-06-06T10:37:27 BRT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- linkTest -->
+      </class> <!-- com.selenium.tests.Tests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
