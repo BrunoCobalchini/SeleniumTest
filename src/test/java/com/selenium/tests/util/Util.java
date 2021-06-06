@@ -17,18 +17,14 @@ public class Util {
 	
 	private String STATUSICON = "achievement-side-items__status";
 	
-	private WebElement VALIDATEBAR = utilDriver.myWebDriver.findElement(By.className("className"));
+	private WebElement VALIDATEBAR = utilDriver.myWebDriver.findElement(By.className(CLASSNAME));
 	
-
-	public String getClassName() {
-		return CLASSNAME;
-	}
 	
 	public String getLoggedLink() {
 		return LOGGEDLINK;
 	}
 	
-	public String getSTATUSICON() {
+	public String getStatusIcon() {
 		return STATUSICON;
 	}
 	

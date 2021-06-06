@@ -54,7 +54,7 @@ public class Tests {
 		
 		testUtil.getLoggedLink();
 		
-		assertNotEquals(doneIcon, testUtil.getSTATUSICON());;
+		assertNotEquals(doneIcon, testUtil.getStatusIcon());;
 
 	}
 

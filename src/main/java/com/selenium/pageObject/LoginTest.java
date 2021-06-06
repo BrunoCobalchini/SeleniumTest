@@ -28,7 +28,7 @@ public class LoginTest {
 			.click();
 
 		mainDriver.myWebDriver.findElement(By.id(loginLogClass))
-			.sendKeys("brunocobal@hotmail.com");
+			.sendKeys(mainDriver.getEmail());
 
 		mainDriver.myWebDriver.findElement(By.id(loginLogClass))
 			.sendKeys(Keys.ENTER);
@@ -41,7 +41,7 @@ public class LoginTest {
 		mainDriver.myWebDriver.findElement(By.id(LoginPassClass))
 			.sendKeys(Keys.ENTER);
 
-		Thread.sleep(6000);
+		Thread.sleep(7000);
 		
 		mainDriver.myWebDriver.quit();
 		
