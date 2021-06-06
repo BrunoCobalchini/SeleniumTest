@@ -3,9 +3,9 @@
 
 ![alt text](http://www.godela.com.br/noticias/imgs/selenium_logo.png)
 
-## *How To*
+# *How To*
 
-Hello, before beggining make sure that you have Firefox driver installed and configurated in your Variable Enviroment, in my case it's on "C:\\GeckoDriver\geckodriver.exe".Thank you!
+Hello, before start make sure that you have Firefox driver installed and configurated in your Variable Enviroment, in my case it's on "C:\\GeckoDriver\geckodriver.exe".Thank you!
 
 # Let's start!
 1. Theres a class called LoginTest(on com.selenium.pageObject).This will be the location to run the application
