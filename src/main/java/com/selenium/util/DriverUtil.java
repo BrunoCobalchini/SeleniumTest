@@ -8,10 +8,10 @@ public class DriverUtil {
 	public WebDriver myWebDriver = new FirefoxDriver();
 	
 	private String LINK = "https://teamshift-qa.crossknowledge.com/";
-	
-	private String email = "brunocobal@hotmail.com";
-
-	private String password = "WLS2020qa";
+	//Add your email in the String
+	private String email = "";
+	//Add your password in the String
+	private String password = "";
 	
 	
 	public DriverUtil() {
